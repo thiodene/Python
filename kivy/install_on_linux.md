@@ -29,6 +29,12 @@
            1. sudo apt-get remove python-pip
            2. sudo apt-get install python-pip
            3. sudo apt-get upgrade
+
+X. If issues installing Cython:
+   sudo apt remove pyhton-pip
+   and then:
+   sudo pip install cython
+
 3. After that install Kivy globally by typing the following:
    1. sudo pip install git+https*:*//github.com/kivy/kivy.git@master
 4. You will need to run some Kivy app in order for Kivy to create a config file unless it can't be found in: ~/.kivy/
